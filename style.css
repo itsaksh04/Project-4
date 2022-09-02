@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #ffff;
+    width: 100%;
+    height: 100%;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.navbar-container div img{
+    margin-left: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    list-style: none;
+   
+}
+.list li:first-child:hover{
+    color: black;
+    
+}
+.list-item{
+    margin-left: 60px;
+    font-size: 18px;
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+.button-group .nav-button{
+    position: absolute;
+    right: 80px;
+    font-size: 16px;
+    top: 30px;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    color: #ffff;
+    background-color: #5955B3;
+    cursor: pointer;
+}
+.banner-container div img{
+    float: right;
+    position: relative;
+    width: 950px;
+    height: 609px;
+    top: 30px;
+}
+.banner-container div:first-child{
+    font-size: 47px;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    color: #3C2F60;
+    font-weight: 400;
+}
+span{
+    color: #7475DA;
+}
+.description{
+    font-size: 19px;
+    margin-top: 40px;
+    color: #3C2F60;
+}
+.btn{
+    font-size: 17px;
+    width: 200px;
+    height: 65px;
+    margin-top: 90px;
+    border-radius: 10px;
+    border: 0px;
+    color: #ffff;
+    background-color: #5955B3;
+    cursor: pointer;
+}
